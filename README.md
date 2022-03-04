@@ -39,12 +39,10 @@ NHANES has their built-in libraries available on python as well as R. we
 would be able to use the data by installing the NHANES library by
 running the following command on python or anaconda command prompt.
 
-![](images/Dataset-1.png){width="5.729166666666667in"
-height="0.3645833333333333in"}
+![](/Images/Dataset-1.png)
 
 Next, you can import the library and save the data into any variable; in
-this case, “data\_df”. ![](images/Dataset-2.png){width="6.5in"
-height="0.46875in"}
+this case, “data\_df”. ![](Images/Dataset-2.png)
 
 Along with the NHANES library, we would be using Pandas, Matplotlib, and
 Seaborn library to analyze and visualize the dataset.
@@ -56,26 +54,24 @@ about diet and health conditions of the person. To make our analysis
 easier to understand and concentrated on conditions affecting BMI, we
 will filter out some columns that seem to be more important.
 
-![](images/Preprocessing-1.png){width="6.5in" height="0.8138888888888889in"}
+![](Images/Preprocessing-1.png)
 
 Lastly, we would drop the NULL columns and introduce the primary key
 column into our dataset:
 
-![](images/Preprocessing-2.png){width="5.668505030621172in"
-height="0.5480774278215224in"}
+![](Images/Preprocessing-2.png)
 
 To keep a local copy of the data, we can save it as a CSV file on our
 system before exporting it on GridDB.
 
-![](images/Preprocessing-3.png){width="6.067307524059492in"
-height="0.36624234470691164in"}
+![](Images/Preprocessing-3.png)
 
 *Uploading the data to GridDB:*
 
 The standard approach set by GridDB to insert data is to create a
 container and use the put methods.
 
-![](images/Exporting-1.png){width="6.5in" height="3.6145833333333335in"}
+![](Images/Exporting-1.png)
 
 We have successfully exported the data to the GridDB cloud without any
 errors and can now access the data from anywhere using the GridDB
@@ -87,35 +83,33 @@ To access the data from the GridDB cloud, we need to query out the
 database using TQL, GridDB’s query language. TQL uses similar commands
 to the standard SQL protocols to query data from the GridDB container.
 
-![](images/Importing-1.png){width="5.509615048118985in"
-height="1.6084525371828522in"}
+![](Images/Importing-1.png)
 
 The next step would be to save the queried data into a dataframe to use
 for analysis. We achieve this using pd.DataFrame() method to convert the
 GridDB container lists to the data frame.
 
-![](images/Importing-2.png){width="6.5in" height="2.063888888888889in"}
+![](Images/Importing-2.png)
 
 **Analysis and Visualization:**
 
 Before starting the analysis, we will import some python libraries to
 help us in our project:
 
-![](images/Analysis-1.png){width="6.5in" height="0.6805555555555556in"}
+![](Images/Analysis-1.png)
 
 We will use a lambda method to apply the categorizeBMI function to our
 data and divide it into four levels; ‘Underweight’, ‘Healthy Weight’,
 ‘Overweight’, and ‘Obesity’
 
-![](images/Analysis-2.png){width="6.5in" height="1.7333333333333334in"}
+![](Images/Analysis-2.png)
 
 We would start by exploring the relationship between BMI and the gender
 of the person, to get an idea of how BMI varies among males and females.
 
 ![](images/Analysis-3.png){width="6.5in" height="0.8555555555555555in"}
 
-![](images/BMI-Gender.png){width="3.7692311898512685in"
-height="2.500097331583552in"}
+![](Images/BMI-Gender.png)
 
 Figure : Male and Females with different BMI levels
 
@@ -127,15 +121,14 @@ Normal HDL levels are above 40 according to CDC, so we will use this
 information to categorize the person into two categories; ‘Normal’ and
 ‘Dangerzone’.
 
-![](images/Analysis-4.png){width="6.5in" height="1.1743055555555555in"}
+![](Images/Analysis-4.png)
 
 We will use HDL level and BMI category to divide the data into sections
 and examine how the BMI level affects the HDL level of a person.
 
-![](images/Analysis-5.png){width="6.5in" height="0.9826388888888888in"}
+![](Images/Analysis-5.png)
 
-![](images/BMI-HDL.png){width="3.4519225721784776in"
-height="2.2896292650918637in"}
+![](Images/BMI-HDL.png)
 
 Figure BMI categories in relation with HDL levels
 
