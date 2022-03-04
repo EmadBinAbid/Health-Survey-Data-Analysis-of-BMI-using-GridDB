@@ -1,4 +1,4 @@
-# Health-Survey-Data-Analysis-of-BMI-using-GridDB
+# Health Survey Data Analysis of BMI using GridDB
 
 **Introduction:**
 
@@ -107,11 +107,11 @@ data and divide it into four levels; ‘Underweight’, ‘Healthy Weight’,
 We would start by exploring the relationship between BMI and the gender
 of the person, to get an idea of how BMI varies among males and females.
 
-![](images/Analysis-3.png){width="6.5in" height="0.8555555555555555in"}
+![](Images/Analysis-3.png)
 
 ![](Images/BMI-Gender.png)
 
-Figure : Male and Females with different BMI levels
+Figure 1 : Male and Females with different BMI levels
 
 As the graph shows, although men are more likely to be overweight than
 women, women have higher chances of being obsessed.
@@ -130,7 +130,7 @@ and examine how the BMI level affects the HDL level of a person.
 
 ![](Images/BMI-HDL.png)
 
-Figure BMI categories in relation with HDL levels
+Figure 2:BMI categories in relation with HDL levels
 
 We can see that a person is more likely to be in the danger zone when
 their BMI would be in the Obesity or Overweight range.
@@ -138,12 +138,11 @@ their BMI would be in the Obesity or Overweight range.
 Similarly, we will use BMI levels to investigate their relationship with
 the diet taken by the person.
 
-![](media/image16.png){width="6.5in" height="0.8638888888888889in"}
+![](Images/Analysis-6.png)
 
-![](media/image17.png){width="3.971153762029746in"
-height="2.705285433070866in"}
+![](Images/BMI-Diet.png)
 
-Figure : Diet effect on BMI category
+Figure 3: Diet effect on BMI category
 
 It is evident by looking into the above graph that the highest number of
 people having poor or fair diet end up facing obesity, while most of the
@@ -154,14 +153,11 @@ strokes or heart attack. For that, we will first filter out the people
 who had stroke or heart attack individually and then explore their BMI
 levels.
 
-![](media/image18.png){width="6.77380905511811in"
-height="1.9322725284339457in"}
+![](Images/Analysis-7.png)
 
-![](media/image19.png){width="3.1983562992125982in"
-height="2.2857141294838144in"}![](media/image20.png){width="3.2649890638670165in"
-height="2.3333333333333335in"}
+![](Images/Stroke.png)![](Images/HeartAttack.png)
 
-> Figure & 5: Relationship between Stroke/Heart Attack and BMI
+> Figure 4 & 5: Relationship between Stroke/Heart Attack and BMI
 
 As expected, the graph verifies our common concern that people dealing
 with obesity or overweight are more prone to having strokes or/and heart
