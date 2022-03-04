@@ -111,7 +111,7 @@ of the person, to get an idea of how BMI varies among males and females.
 
 ![](Images/BMI-Gender.png)
 
-Figure 1 : Male and Females with different BMI levels
+> Figure 1 : Male and Females with different BMI levels
 
 As the graph shows, although men are more likely to be overweight than
 women, women have higher chances of being obsessed.
@@ -130,7 +130,7 @@ and examine how the BMI level affects the HDL level of a person.
 
 ![](Images/BMI-HDL.png)
 
-Figure 2:BMI categories in relation with HDL levels
+> Figure 2:BMI categories in relation with HDL levels
 
 We can see that a person is more likely to be in the danger zone when
 their BMI would be in the Obesity or Overweight range.
@@ -142,7 +142,7 @@ the diet taken by the person.
 
 ![](Images/BMI-Diet.png)
 
-Figure 3: Diet effect on BMI category
+> Figure 3: Diet effect on BMI category
 
 It is evident by looking into the above graph that the highest number of
 people having poor or fair diet end up facing obesity, while most of the
